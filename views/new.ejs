@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Blog z KAwalami</title>
+
+</head>
+
+<body>
+    <header>
+        <h1>Blog z kawalami</h1>
+        <nav>
+            <ul class="nav__ul">
+                <li class="nav__li"><a href="signUp">Sign up</a></li>
+                <li class="nav__li"><a href="/about">About</a></li>
+                <li class="nav__li"><a href="/">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="menu__left">
+            <div class="menu__ul">
+                <li class="menu__ul__li"><a href="/login">Login</a></li>
+                <li class="menu__ul__li"><a href="/new">New</a></li>
+            </div>
+        </div>
+        <div class="new_joke">
+            <form action="new" method="post">
+                <div class="yourJoke">
+                    <label for="joke" name="joke" id="jokelabel"> Your Joke</label>
+                    <textarea name="joke" id="" cols="60" rows="10"></textarea>
+                </div>
+                <div class="nick">
+                    <label class="nick" for="nick">
+                        <input type="text" name="nick" placeholder="nick" id="nick"></label>
+                        <button type="submit"> <a href="/">cancel</a></button>
+                        <button type="submit" class="btnUp">Send</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>

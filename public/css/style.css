@@ -1,0 +1,220 @@
+body {
+    background-color: rgb(10, 10, 37);
+    width: 100vw;
+}
+
+h1 {
+    color: cornsilk;
+    font: 3rem calibri;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+   
+}
+nav {
+    width: 50vmin;
+}
+.nav__ul {
+    display: inline-flex;
+    color: cyan;
+    list-style-type: none;
+    position: fixed;
+}
+.nav__li {
+    width: 80px;
+    padding: 17px;
+    font: 1.5em calibri;
+}
+.menu__left {
+    width: 20%;
+    height: 70vh;
+}
+.menu__ul {
+    margin-top: 30px;
+    padding: 10px;
+    font: 2rem calibri;
+    color: teal;
+    list-style-type: none;
+}
+.menu__ul__li{
+    padding: 20px;
+}
+.jokes {
+    width: 700px;
+    height: 200px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -370px;
+    
+}
+.joke {
+    width: 410px;
+    background-color: rgb(86, 156, 235);
+
+    color: rgb(191, 206, 219);
+    font: 20px calibri;
+    padding: 3px;
+    margin-top: 20px;
+    border-radius: 5%;
+}
+
+
+.new_joke {
+    width: 500px;
+    display: flex;
+    border: 3px solid white;
+    border-radius: 5px; 
+    margin-left: 200px;
+    margin-top: -350px;
+}
+
+.data {
+    margin-top: 5px;
+    text-align: right;
+    background-color: rgb(4, 22, 22);
+    padding-right: 10px;
+    
+}
+.author {
+    color: black;
+}
+.jokenick {
+    color: rgb(59, 59, 190);
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.yourJoke  {
+    width: 500px;
+    color: rgb(41, 33, 4);
+    font-family: calibri;
+    
+}
+.nick {
+    margin-top: -7px;
+    padding: 6px;
+    color: rgb(190, 214, 241);
+}
+/* ////////// LOGIN */
+#panel {
+width: 450px;
+text-align: center; 
+margin: 0 0 0 200px; 
+padding: 15px 0 0;
+background-color: rgb(86, 156, 235);
+
+border: 1px solid silver;
+font: 16px calibri;
+letter-spacing: -1px;
+-webkit-box-shadow: 0 0 2px silver; 
+-moz-box-shadow: 0 0 2px silver; 
+box-shadow: 0 0 2px silver;
+transform: translateY(-350px);
+}
+form {
+margin: 0;
+}
+label {
+    display: block;
+    width: 400px;
+    padding: 10px 20px;
+    color: #dbc9c9;
+    font-size: 16px;
+    
+}
+#labellogin {
+    display: block;
+width: 400px;
+padding: 10px 20px;
+color: #1d1c1c;
+font-size: 16px;
+text-shadow: 0 0 1px silver;
+}
+
+#jokelabel {
+display: block;
+width: 460px;
+padding: 10px 20px;
+color: #1d1c1c;
+font-size: 16px;
+text-shadow: 0 0 1px silver;
+background-color: rgb(86, 156, 235);
+} 
+#username, #password {
+display: block;
+width: 360px; 
+margin: 0 auto;
+padding: 10px 5px;
+border: 1px solid silver;
+outline: 5px solid #ebebeb;
+font-size: 22px;
+}
+#username:focus, #password:focus {
+outline: 5px solid #e5f2f8;
+}
+#lower {
+background: #ecf2f5;
+width: 360px;
+padding: 5px 20px;
+margin-top: 20px;
+}
+input[type="submit"] {
+    width: 70px;
+    padding: 5px 13px;
+    border: 1px solid #005f85;
+    color: white;
+    text-shadow: 0 0 1px black;
+    background: #005f85;
+    position: relative;
+    left: 180px;
+    margin-top: 20px;
+}
+
+
+
+#panel, input[type="submit"] {
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    border-radius: 5px; 
+}
+/* ////////// Register */
+.register {
+    width: 300px;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: -400px;
+}
+h2 {
+    color: white;
+}
+
+.btnUp {
+    width: 80px;
+    padding: 5px 13px;
+    border: 1px solid #005f85;
+    color: white;
+    text-shadow: 0 0 1px black;
+    background: #005f85;
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    border-radius: 5px;
+   margin-left: 55px 
+}
+
+
+#succes {
+    visibility: none;
+    position: absolute;
+    margin: 0 0 -300px 200px;
+    width: 350px;
+    height: 100px;
+    background-color: cadetblue;
+    color: white;
+}
+
+#btnForm {
+    width: 40px;
+    height: 30px;
+    background: #005f85;
+}

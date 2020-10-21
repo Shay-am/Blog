@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Blog z KAwalami</title>
+
+</head>
+<body>
+    <header>
+        <h1>Blog z kawalami</h1>
+        <nav>
+            <ul class="nav__ul">
+                <li class="nav__li"><a href="/signUp">Sign up</a></li>            
+                <li class="nav__li"><a href="/about">About</a></li>
+                <li class="nav__li"><a href="/">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="menu__left">
+            <div class="menu__ul">
+                <li class="menu__ul__li"><a href="/login">Login</a></li>
+                <li class="menu__ul__li"><a href="/new">New</a></li>
+            </div>
+        </div>
+        <div class="jokes">
+            <% jokes.forEach(function(joke){ %>
+                <div class="joke"><%= joke.joke %>
+                    <div class="data"><%= joke.posted.toLocaleString() %> </div>
+                    <div class="nick"><span class="author">Author: </span> <span class="jokenick"><%= joke.nick %></span> </div>
+                </div>
+                <% }) %> 
+            </div>>
+            <% if (success.length > 0 && success) { %>
+                <form id="succes"><%= success %>
+                    <button id="btnForm"> </button>
+                    <button>oks</button> 
+                </form>
+            <% } %>
+    </main>
+    <script src="/javascript/index.js"></script>
+</body>
+</html>

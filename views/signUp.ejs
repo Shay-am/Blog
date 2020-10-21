@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Blog z KAwalami</title>
+
+</head>
+
+<body>
+    <header>
+        <h1>Blog z kawalami</h1>
+        <nav>
+            <ul class="nav__ul">
+                <li class="nav__li"><a href="/signUp">Sign up</a></li>
+                <li class="nav__li"><a href="/about">About</a></li>
+                <li class="nav__li"><a href="/">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="menu__left">
+            <div class="menu__ul">
+                <li class="menu__ul__li"><a href="/login">Login</a></li>
+                <li class="menu__ul__li"><a href="/new">New</a></li>
+            </div>
+        </div>
+        <div class="register">
+            <h2>Sign Up for Free</h2>
+            <form action="/signUp" method="post">
+                <div class="top-row">
+                    <div class="field-wrap">
+                        <label for="user">
+                            User Name<span class="req">*</span>
+                        </label>
+                        <input type="text" name="user" required autocomplete="off" />
+                    </div>
+                </div>
+                <div class="field-wrap">
+                    <label for="email">
+                        Email Address<span class="req">*</span>
+                    </label>
+                    <input type="email" name="email" required autocomplete="off" />
+                </div>
+                <div class="field-wrap">
+                    <label for="password">
+                        Password<span class="req">*</span>
+                    </label>
+                    <input type="password" name="password" required autocomplete="off" />
+                </div>
+                <button type="submit" class="btnUp">Sign Up</button>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
